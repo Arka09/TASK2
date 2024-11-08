@@ -20,7 +20,7 @@ const LandingPage = () => {
                 </p>
                 <button
                     onClick={handleClick}
-                    className="mt-6 px-8 py-3 bg-blue-100 rounded-full text-gray-900 font-semibold rounded-lg hover:bg-purple-300"
+                    className="mt-6 px-8 py-3 bg-lime-300 rounded-full text-gray-900 font-semibold rounded-lg hover:bg-purple-300"
                 >
                     Get Started
                 </button>
