@@ -50,7 +50,7 @@ const FindBook = () => {
       }}
     >
       <div className="w-screen flex items-center justify-center text-white bg-black bg-opacity-50 p-4">
-        <h1 className="text-4xl md:text-5xl font-bold">
+        <h1 className="text-2xl md:text-5xl font-bold">
           Search Your Desired Book
         </h1>
       </div>
@@ -89,7 +89,7 @@ const FindBook = () => {
 
         {/* Conditionally render book results based on presence of data */}
         {bookDetails.length > 0 && (
-          <div className="w-full max-w-4xl mt-6 max-h-96 overflow-y-auto bg-white rounded-lg shadow-md">
+          <div className="w-screen  md:max-w-4xl mt-6 max-h-96 overflow-y-auto bg-white rounded-lg shadow-md">
             <div className="flex flex-col">
               <div className="flex text-left text-xs font-medium text-gray-500 uppercase tracking-wider bg-gray-100 p-4">
                 <div className="w-1/3 px-2">Title</div>
